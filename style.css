@@ -9,14 +9,12 @@ body {
     flex-direction: column;
 }
 
-
 .header {
     display: flex;
-    justify-content: space-around;
-    padding: 24px 96px;
+    justify-content: space-between;
     align-items: center;
-
-
+    padding: 25px 0px;
+    width: 66%;
 }
 
 .h-logo {
@@ -40,18 +38,19 @@ a {
 .div-1 {
     background-color: #1F2937;
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .upper-content {
     display: flex;
     padding: 24px 96px;
     justify-content: center;
     gap: 96px;
-    flex-wrap: wrap;
+    max-width: 1400px;
+}
 
-}
-.upper-content div {
-    width: 35%;
-}
+
 
 .upper-content div h1 {    
     font-size: 48px;
@@ -118,6 +117,32 @@ img {
     text-align: center;
     color: grey;
 }
+.div-3 {
+    background-color: rgb(230, 230, 230);
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote-container {
 
+    display: flex;
+    flex-direction: column;
+    flex-basis: 900px;
+}
 
+.quote-container p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+.quote-name {
+    align-self: flex-end;
+}
+
+.div-1, .div-2, .div-3 {
+    min-height: 400px;
+    padding: 25px
+}
